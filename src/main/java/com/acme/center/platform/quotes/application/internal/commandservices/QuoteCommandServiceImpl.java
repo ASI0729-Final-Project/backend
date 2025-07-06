@@ -2,7 +2,7 @@ package com.acme.center.platform.quotes.application.internal.commandservices;
 
 import com.acme.center.platform.quotes.domain.model.aggregates.Quote;
 import com.acme.center.platform.quotes.domain.model.commands.CreateQuoteCommand;
-import com.acme.center.platform.quotes.domain.repositories.QuoteRepository;
+import com.acme.center.platform.quotes.infrastructure.persistence.jpa.repositories.QuoteRepository;
 import com.acme.center.platform.quotes.domain.services.QuoteCommandService;
 import org.springframework.stereotype.Service;
 
